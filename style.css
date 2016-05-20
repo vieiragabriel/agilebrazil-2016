@@ -1,0 +1,11 @@
+/*Theme Name: Agile Brazil 2016
+Theme URI: http://evolucaoagil.com.br
+Description: Tema para o site agilebrazil.com/2016/
+Version: 0.1
+Author: Gabriel Vieira
+Author URI: http://evolucaoagil.com.br
+Tags: none
+*/
+.panel-grid-cell .so-panel{
+    margin-bottom: 0px !important;
+}
