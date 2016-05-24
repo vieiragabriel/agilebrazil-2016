@@ -48,3 +48,14 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.8; }
+
+#internal-page dl {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.6; }
+
+#internal-page dt {
+  font-weight: bold }
+
+#internal-page dd {
+  margin-bottom: 0.8em; }
