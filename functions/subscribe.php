@@ -59,31 +59,23 @@ add_action('widgets_init', 'subscribe_load_widget');
 
 
 function subscribe_function(){ ?>
-	<section id="subscribe-form">
-		<div class="subscribe-form">
-			<p>Preencha o formulário para receber novidades por email.</p>
-
-			<form id="formEmail" action="add_subscriber.php" method="post">
-				<ul>
-					<li class="required">
-						<label for="name">Nome</label>
-						<input type="text" class="inputLarge" name="name" id="name" value="" required placeholder="Nome"/>
-					</li>
-					<li class="required">
-						<label for="email">Email</label>
-						<input type="email" class="inputLarge" name="email" id="email" value="" required
-						       placeholder="Email"/>
-					</li>
-					<li class="submitEmail">
-						<input type="hidden" name="lang" id="lang" value="pt">
-						<input type="button" class="buttonAction" name="submit" id="submit" value="Assinar"/>
-					</li>
-				</ul>
-				<div class="notice">
-					<span id="formMessage" class="notice" aria-hidden="true"/>
+	<section id="newsletter" class="section">
+		<div class="container">
+			<h1><?php _e("Signup for our newsletter", 'ab2016')?></h1>
+			<div class="info">
+				<div class="form"><form id="formEmail" action="<?php echo get_template_directory_uri(); ?>/add_subscriber.php" method="post">
+						<ul>
+							<li class="required"><input id="name" class="inputLarge" name="name" required="" type="text" value="" placeholder="Seu nome" /></li>
+							<li class="required"><input id="email" class="inputLarge" name="email" required="" type="email" value="" placeholder="Seu e-mail" /></li>
+							<li class="submitEmail"><input id="lang" name="lang" type="hidden" value="pt" />
+								<input id="submit" class="btnBase" name="submit" type="button" value="Assinar" /></li>
+						</ul>
+						<div class="notice"><span id="formMessage" class="notice" aria-hidden="true"></span></div>
+					</form></div>
+				<div class="text">
+					<h4><?php _e("Don't miss out on anything that is happening in Agile Brazil. Sign up for our newsletter and receive all the information in your email!", 'ab2016')?></h4>
 				</div>
-			</form>
-
+			</div>
 		</div>
 	</section>
 	<?php

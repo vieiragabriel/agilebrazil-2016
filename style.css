@@ -5,7 +5,10 @@ Version: 0.1
 Author: Gabriel Vieira
 Author URI: http://evolucaoagil.com.br
 Tags: none
+Text Domain: ab2016
+Domain Path: /languages/
 */
-.panel-grid-cell .so-panel{
+.panel-grid-cell .so-panel,
+.panel-grid{
     margin-bottom: 0px !important;
 }

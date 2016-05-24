@@ -5,6 +5,8 @@
  * @package ab2016
  */
 
+load_theme_textdomain( 'ab2016', get_template_directory() . '/languages' );
+
 function ab2016_register_theme_menu() {
 	register_nav_menu( 'primary', 'Agile Brazil - Menu' );
 }
