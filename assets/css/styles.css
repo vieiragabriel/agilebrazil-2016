@@ -59,3 +59,7 @@
 
 #internal-page dd {
   margin-bottom: 0.8em; }
+
+#internal-page a {
+  color: #35a633;
+}
