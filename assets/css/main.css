@@ -980,7 +980,7 @@ h4 {
   position: absolute;
   width: 100%;
   top: 30px;
-  padding: 40px 0 30px;
+  padding: 50px 0 30px;
   text-align: center; }
   @media (min-width: 750px) {
     .site-header {
@@ -1287,6 +1287,39 @@ footer {
 .lang-item{
   float: right;
   padding-top: 0.5em;}
+
+#internal-page-header {
+  background: #006c84;
+  height: 245px;
+  padding-top: 115px; }
+
+#internal-page-header h1 {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  color: #d9edf7; }
+
+#internal-page-header h2 {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  text-transform: none;
+  color: #fef64f;
+  padding-top: 10px; }
+
+#internal-page {
+  background: #f3f4f4;
+  color: #4a4a4a;
+  margin: 0 auto;
+  text-align: center; }
+
+#internal-page .container {
+  background: #f3f4f4;
+  color: #4a4a4a;
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: justify; }
 
 @media (min-width: 340px) {
   .headerAa-menu {
