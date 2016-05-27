@@ -12,3 +12,8 @@ Domain Path: /languages/
 .panel-grid{
     margin-bottom: 0px !important;
 }
+
+.lang-item {
+    float: right;
+    padding-top: 0.5em;
+}
