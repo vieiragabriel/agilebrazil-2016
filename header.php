@@ -11,6 +11,7 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" rel="stylesheet" media="all">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css" type="text/css" rel="stylesheet" media="all">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css" type="text/css" rel="stylesheet" media="all">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/registration.css" type="text/css" rel="stylesheet" media="all">
 	<script type="text/javascript">
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -52,7 +53,7 @@
 	<header class="site-header">
 		<div class="container">
 			<h1>
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-agile-brazil.svg" alt="Logo Agile Brazil">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-agile-brazil.svg" alt="Logo Agile Brazil"></a>
 			</h1>
 			<nav class="main-menu">
 				<ul>

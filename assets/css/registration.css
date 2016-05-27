@@ -1,0 +1,110 @@
+.pricesCcontainer {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.pricesWhole {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pricesType {
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #ffd24f;
+    height: 62px;
+    border-bottom: 3px solid #fef696;
+}
+
+.pricesType.aa {
+    background-color: #006c84;
+    border-bottom: 3px solid #00cbe4;
+}
+
+.pricesType.student {
+    background-color: #003c18;
+    border-bottom: 3px solid #35a633;
+}
+
+.pricesType p {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 29px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pricesPlan {
+    width: 300px;
+    background-color: #2b2937;
+    border-radius: 0px 0px 5px 5px;
+    font-family: 'Open Sans';
+    font-style: condensed;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    height: 515px;
+}
+
+.pricesHeader {
+    border-bottom: 1px solid #494a5a;
+    padding-bottom: 5px;
+}
+
+.pricesHeader span {
+    font-size: 32px;
+}
+
+.pricesHeader span.priceValue {
+    font-size: 42px;
+}
+
+.pricesHeader sup {
+    font-size: 25px;
+}
+
+.pricesTitle {
+    font-size: 24px;
+    color: #575757;
+    padding-top: 5px;
+}
+
+.pricesSubtitle {
+    font-size: 14px;
+    color: #575757;
+    padding: 0 10px 25px 10px;
+    margin: -10px;
+}
+
+.pricesHeader.coming {
+    border-bottom: 1px solid #494a5a;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 105px;
+    line-height: 52px;
+    font-size: 20px;
+    color: #9095aa;
+}
+
+.pricesHeader.coming span,
+.pricesHeader.coming sup {
+    font-size: 15px;
+}
+
+.pricesHeader.coming span.priceValue {
+    font-size: 25px;
+}
+
+.pricesHeader.coming p.pricesSubtitle {
+    margin: -5px;
+}
+
+.pricesPlan .price {
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: 17px;
+}
