@@ -52,7 +52,7 @@
 	<header class="site-header">
 		<div class="container">
 			<h1>
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-agile-brazil.svg" alt="Logo Agile Brazil">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-agile-brazil.svg" alt="Logo Agile Brazil"></a>
 			</h1>
 			<nav class="main-menu">
 				<ul>
