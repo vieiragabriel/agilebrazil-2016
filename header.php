@@ -6,6 +6,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<meta name="viewport" content="width=device-width">
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" rel="stylesheet" media="all">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css" type="text/css" rel="stylesheet" media="all">
