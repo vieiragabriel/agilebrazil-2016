@@ -59,3 +59,7 @@
 .social-networking a {
   color: #d9edf7;
 }
+
+.social-networking a:hover {
+  color: #00cbe4;
+}
