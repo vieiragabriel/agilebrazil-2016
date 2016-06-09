@@ -1024,7 +1024,7 @@ h4 {
     text-align: center;
     color: #fff9e1; }
   .social-networking ul {
-    font-size: 0;
+    /*font-size: 0;*/
     text-align: center; }
   .social-networking li {
     display: inline-block;
@@ -1032,7 +1032,7 @@ h4 {
     margin: 0 10px; }
   .social-networking a {
     font-family: "Montserrat";
-    font-size: 0;
+    /*font-size: 0;*/
     text-decoration: none; }
   .social-networking .social-icon {
     display: block;
