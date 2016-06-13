@@ -17,3 +17,7 @@ Domain Path: /languages/
     float: right;
     padding-top: 0.5em;
 }
+
+.social-networking .social-icon {
+    text-indent: -150px;
+}
