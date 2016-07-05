@@ -23,9 +23,7 @@ Domain Path: /languages/
 }
 
 
-.pigs {
-    margin-left: -30px;
-    margin-right: -30px;
+#internal-page ul.pigs {
     margin-top: 2em;
     color: #218CCB;
 }
