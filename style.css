@@ -59,6 +59,32 @@ Domain Path: /languages/
     color: #444;
 }
 
+.hotels-list {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 1.5em;
+}
+.hotels-list dt {
+    font-weight: 700;
+    color: #00a1c7;
+}
+.hotels-list dd {
+    margin-bottom: 1em;
+    font-size: 0.8em;
+}
+
+#hotels h4{
+    text-align: center;
+}
+
+#hotels p{
+    padding-top: 0.5em;
+}
+
+#hotels strong{
+    font-weight: bold;
+}
+
 @media(max-width: 550px) {
     .pigs li {
         width: 100%
