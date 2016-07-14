@@ -64,17 +64,38 @@ Domain Path: /languages/
     text-align: left;
     padding-top: 1.5em;
 }
-.hotels-list dt {
+
+.hotels-list li {
+  margin-bottom: 1.5em;
+}
+.hotels-list h3 {
     font-weight: 700;
     color: #00a1c7;
 }
-.hotels-list dd {
-    margin-bottom: 1em;
+
+.hotels-list h4 {
+  font-size: 0.8em;
+}
+
+.hotels-list p {
     font-size: 0.8em;
 }
 
-#hotels h4{
-    text-align: center;
+.hotels-list p.small {
+  font-size: 0.7em;
+  margin: 0;
+}
+
+#hotels-evnts {
+  background: #F0F1F4;
+  padding-top: 0;
+}
+
+#hotels .evnts-partner {
+  margin: 1.5em 1em;
+  padding-top: 1.5em 0;
+  clear: both;
+  text-align: center;
 }
 
 #hotels p{
