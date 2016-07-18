@@ -1074,18 +1074,21 @@ h4 {
     #teaser {
       padding-top: 200px; } }
   #teaser h1 {
-    font-size: 1.6em;
+    font-size: 2em;
     margin-top: 1em; }
     @media (min-width: 750px) {
       #teaser h1 {
-        font-size: 2em; } }
+        font-size: 2.5em; } }
   #teaser h2 {
-    color: #d9edf7; }
+    color: #d9edf7;
+    font-size: 2em }
   #teaser h3 {
-    padding: 1em 0; }
+    padding: 1em 0;
+    font-size: 2em }
   #teaser .summary {
     max-width: 550px;
-    margin: 0 auto 2.5em; }
+    margin: 0 auto 2.5em;
+    font-size: 1.2em; }
     @media (min-width: 750px) {
       #teaser .summary {
         margin: 0 auto 5em; } }
