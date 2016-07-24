@@ -126,7 +126,14 @@ Domain Path: /languages/
   background-color: #f2f2f2;
 }
 
+.right{
+    float: right;
+    margin-left: 2em;
+}
 
+.p1 strong {
+    font-weight: 600;
+}
 
 @media(max-width: 550px) {
     .pigs li {
