@@ -76,3 +76,65 @@
 #internal-page .cta-button:hover {
     background-color: #006c84;
 }
+
+/* Keynotes */
+
+#keynotes {
+  background-color: #00a1c7;
+  text-align: center;
+}
+
+#keynotes h1 {
+  color: #fff;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+#keynotes ul {
+  margin-bottom: 2em;
+  overflow: auto;
+}
+
+#keynotes ul li {
+  padding-bottom: 1em;
+}
+
+#keynotes h3 {
+  color: #fef64f;
+  font-size: 1.7em;
+}
+
+#keynotes h5 {
+  color: rgba(0, 52, 65, 0.6);
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#keynotes p {
+  color: #f2f2f2;
+  padding: 0.8em 1.5em;
+  font-size: 1.2em;
+}
+
+#keynotes img {
+    width: 100%;
+    border-radius: 100%;
+    padding: 1em 20%;
+    opacity: 0.7;
+}
+
+#keynotes .cta-button {
+    padding: 1.2em 2em;
+    border-radius: 28px;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #00a1c7;
+}
+
+
+@media (min-width: 750px) {
+  #keynotes img {
+    padding: 1em 30%;
+  }
+}
