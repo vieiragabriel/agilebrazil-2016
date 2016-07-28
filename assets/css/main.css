@@ -1066,7 +1066,7 @@ h4 {
   padding: 60px 15px; }
 
 #teaser {
-  padding-top: 130px;
+  padding-top: 5em;
   text-align: center;
   background: url(../img/bg_teaser.jpg) no-repeat center;
   background-size: cover; }
@@ -1074,14 +1074,14 @@ h4 {
     #teaser {
       padding-top: 200px; } }
   #teaser h1 {
-    font-size: 2em;
+    font-size: 1.4em;
     margin-top: 1em; }
     @media (min-width: 750px) {
       #teaser h1 {
         font-size: 2.5em; } }
   #teaser h2 {
     color: #d9edf7;
-    font-size: 2em }
+    font-size: 1.8em }
   #teaser h3 {
     padding: 1em 0;
     font-size: 2em }

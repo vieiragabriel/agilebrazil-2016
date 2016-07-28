@@ -10,7 +10,15 @@ Domain Path: /languages/
 */
 .panel-grid-cell .so-panel,
 .panel-grid{
-    margin-bottom: 0px !important;
+    margin: 0px !important;
+}
+
+.panel-grid-cell {
+  padding: 0 !important;
+}
+
+.cta-button {
+  white-space: nowrap;
 }
 
 .lang-item {
@@ -117,7 +125,7 @@ Domain Path: /languages/
 }
 
 #subscription .cta-button {
-    padding: 1.2em 2em;
+    padding: 1.2em 1em;
     border-radius: 28px;
     text-decoration: none;
 }

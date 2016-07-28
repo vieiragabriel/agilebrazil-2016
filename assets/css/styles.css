@@ -96,7 +96,7 @@
 }
 
 #keynotes ul li {
-  padding-bottom: 1em;
+  padding: 0 0 1em;
 }
 
 #keynotes h3 {
@@ -111,9 +111,9 @@
   font-weight: bold;
 }
 
-#keynotes p {
+#keynotes p.description {
   color: #f2f2f2;
-  padding: 0.8em 1.5em;
+  padding: 0.8em 0;
   font-size: 1.2em;
 }
 
@@ -137,4 +137,12 @@
   #keynotes img {
     padding: 1em 30%;
   }
+  #keynotes ul li {
+    padding-bottom: 1em;
+  }
+  #keynotes p.description {
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+  }
+
 }
