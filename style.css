@@ -243,11 +243,11 @@ div.supporter-enclosure figure img{
 .supporter-item:not(:last-child) {
     margin-bottom: 10px;
 }
-.supporter-item img {
+/*.supporter-item img {
     height: auto;
     max-width: 125px;
     max-height: 100px;
-}
+}*/
 
 .supporter-item.title img {
     height: auto;
@@ -279,11 +279,11 @@ div.supporter-enclosure figure img{
     max-height: 150px;
 }
 
-.supporter-item.online img {
+/*.supporter-item.online img {
     height: auto;
     max-width: 130px;
     max-height: 130px;
-}
+}*/
 /*sponsor - END*/
 
 @media(max-width: 550px) {
